@@ -1,0 +1,23 @@
+name: Flying Welkin
+description:  Ĉigo Esperisto's Website
+
+sass:
+  sass_dir: assets/css/_sass
+  style: :compressed
+
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+
+url: 
+permalink: /:year/:month/:title/
+owner:
+    name: esperisto
+    twitter: esperisto
+    github: esperisto
+    disqus_shortname: flyingwelkin
+
+ga_id: #
+ga_username: #
+
+timezone: Asia/Chongqing
