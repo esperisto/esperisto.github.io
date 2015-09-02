@@ -33,11 +33,11 @@ start "Skype 2.0" /D"%~dp0" "%~dp0\App\skype.exe" /datapath:"%DATA%" /removable`
       * 抓取圖標：運行 Icons from File，打開 skype.exe，選取第一個圖標，保存為 .ico 文件；
       * 用 Quick Batch File Compiler 打開剛才建立的 SkypePortable.bat，選中“定制資源”選項卡，填寫“文件描述”為 SkypePortable，如圖所示：
     
-    [<img src="http://jouchyi.cn/wp-content/uploads/2007/08/quickbc-1.png" alt="quickbc-1.png" align="middle" />][5]  
+    ![Figure 1](/assets/images/quickbc-1.png)  
     在“應用程序圖標”中瀏覽剛才抓取的 Skype 圖標；
     
       * 按“選項”按鈕，“常規”選項卡中選中“魅影應用程序”，如圖所示：  
-        [![quickbc-2.png][6]][7]
+        ![Figure 2](/assets/images/quickbc-2.png)
       * 點擊“生成”按鈕生成可執行文件；
       * 將生成的可執行文件命名為 SkypePortable.exe 放在 [USB 盤符]:\PortableApps\SkypePortable\ 文件夾下，啟動 PortableApps，就可在菜單中看到 Skype 啦！
 
@@ -45,6 +45,3 @@ start "Skype 2.0" /D"%~dp0" "%~dp0\App\skype.exe" /datapath:"%DATA%" /removable`
  [2]: http://www.abyssmedia.com/quickbfc/ "訪問軟件主頁"
  [3]: http://www.downxia.com/downinfo/2716.html "進入下載頁面"
  [4]: http://www.vlsoftware.net/exico/ "訪問軟件主頁"
- [5]: http://jouchyi.cn/wp-content/uploads/2007/08/quickbc-1.png "quickbc-1.png"
- [6]: http://jouchyi.cn/wp-content/uploads/2007/08/quickbc-2.png
- [7]: http://jouchyi.cn/wp-content/uploads/2007/08/quickbc-2.png "quickbc-2.png"
