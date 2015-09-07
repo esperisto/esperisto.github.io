@@ -1,0 +1,105 @@
+---
+layout: post
+title: 迁移到 Jekyll 和 Github
+archive: false
+comments: true
+---
+<div id="table-of-contents">
+<h3>Table of Contents</h3>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">缘起</a></li>
+<li><a href="#sec-2">投入静态网页的怀抱</a></li>
+<li><a href="#sec-3">初试</a></li>
+<li><a href="#sec-4">改善</a></li>
+<li><a href="#sec-5">自定义</a></li>
+<li><a href="#sec-6">结语</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1" class="outline-2">
+<h3 id="sec-1">缘起</h3>
+<div class="outline-text-2" id="text-1">
+<p>
+之前我的博客是放在号称一次性付费 3 刀的美国 Freepgs 上的。后来空间商换了服
+务器，涨了几次价，变成了每年 12 刀，空间从最初的 300 MB 升级到了 1 GB。
+我在上面安装了 Wordpress，用过好几个主题，从一大堆主题中选择了 <a href="http://xuyiyang.com/wordpress-themes/unnamed/">Unnamed</a>。
+后来觉得这个主题太老了就换成了 Wordpress 自带的 Twenty Eleven，也删除
+了之前用的好些 Widget。使用的插件也精简到了 14 个，但是还是多啊，有些
+插件其实就是为了一个小功能。
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h3 id="sec-2">投入静态网页的怀抱</h3>
+<div class="outline-text-2" id="text-2">
+<p>
+不知不觉网上博客圈一大把一大把开始都变成静态页面，还都是托管在 Github
+上的。正值这个时候我开始学习 <a href="https://zh.wikipedia.org/wiki/Emacs">Emacs</a> 和 <a href="https://zh.wikipedia.org/wiki/Org-%25E6%25A8%25A1%25E5%25BC%258F">Org-mode</a>。 Org-mode 是一个强大的
+笔记和 GTD 系统，可以导出和发布 HTML、PDF、LaTex 等格式的文件。所以我
+就想把天宫也搬到 Github 上来。阮一峰曾经说道：「第三阶段，觉得独立博客
+的管理太麻烦，最好在保留控制权的前提下，让别人来管，自己只负责写文章。」
+虽然我并不算写得多的人，但也应了这句话。
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h3 id="sec-3">初试</h3>
+<div class="outline-text-2" id="text-3">
+<p>
+刚开始我以为安装和配置 <a href="https://en.wikipedia.org/wiki/Jekyll_(software)">Jekyll</a> 很麻烦，看了很多文章，还是没搞清楚。后来
+看了这篇文章 <a href="http://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/">Build A Blog With Jekyll And GitHub Pages</a> 才知道其实可以
+<b>本机不用安装</b> Jekyll，直接在 Github 上创建 Jekyll 所需的文件夹结构和
+各种文件就可以使用了。于是我 fork 了这篇文章作者 Barry Clark 制作的模
+版 <a href="https://github.com/barryclark/jekyll-now">Jekyll Now</a>，把用 Ben Balter 制作的 WordPress to Jekyll Exporter
+插件导出的博客文章放入 _post 文件夹中，修改了 _config.yml 配置文件后，
+新的网站就做成了。真是简单。
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-4" class="outline-2">
+<h3 id="sec-4">改善</h3>
+<div class="outline-text-2" id="text-4">
+<p>
+虽然安装 Jekyll 看似很复杂，不过呢，在 OS X 上安装 Jekyll 环境其实很方
+便，装好了 Ruby 之后，只需要一条命令：
+</p>
+
+<p class="verse">
+sudo gem install github-pages<br  />
+</p>
+
+<p>
+就可以安装完相应所需的软件包了。
+</p>
+
+<p>
+Jekyll Now 的外观并不太合我意。最后在 <a href="http://drjekyllthemes.github.io">Dr. Jekyll's Themes</a> 上选择了
+<a href="https://github.com/nadjetey/wangana">Wangana</a>。
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-5" class="outline-2">
+<h3 id="sec-5">自定义</h3>
+<div class="outline-text-2" id="text-5">
+<p>
+Wangana 主题看起来简洁又不失现代。字体也很好看，但是默认的 Google 字体
+Poly 并不支持我所喜爱的<a href="https://en.wikipedia.org/wiki/Esperanto">世界语</a>， 所以在 Google Fonts 上找了一款支持
+Latin Extended 字符集的又和 Poly 非常接近的一款字体 Andada。只需要把
+/assets/css/_sass/_site.scss 中 Poly 字样改为 Andada 即可。
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-6" class="outline-2">
+<h3 id="sec-6">结语</h3>
+<div class="outline-text-2" id="text-6">
+<p>
+以上只是迁移到 Jekyll 的一个记录，算是 Blog 历史的一部分吧。
+</p>
+</div>
+</div>
