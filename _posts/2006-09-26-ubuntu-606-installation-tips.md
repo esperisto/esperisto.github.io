@@ -1,11 +1,7 @@
 ---
 title: Ubuntu 6.06 安装备忘
-author: esperisto
 layout: post
-archive: true
-comments: true
-categories:
-  - 经验之谈
+categories: [经验之谈]
 tags:
   - installation
   - linux
@@ -22,3 +18,4 @@ tags:
   * 多媒体方面mplayer，w32codec。
 
 更新：由于Ubuntu 6.06没有预先安装gstreamer 0.10，所以导致totem和Rhythmbox无法播放mp3音乐，只需 sudo apt-get install gstreamer0.10*
+

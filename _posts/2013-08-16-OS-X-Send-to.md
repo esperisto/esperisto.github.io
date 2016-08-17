@@ -1,8 +1,6 @@
 ---
 title: 在 Mac OS X 上实现类似 Windows 发送到（Send To）功能
-author: esperisto
 layout: post
-
 categories:
   - 经验之谈
 tags:
@@ -10,8 +8,6 @@ tags:
   - Mac OS X
   - Windows
   - 服务
-archive: false
-comments: true
 ---
 刚买了一台 MacBook Air 2013 款电脑，用着还挺舒服的。终于见识了苹果在笔记本方面的能力。话说这款电脑搭载的 Mac OS X Mountain Lion 是目前世界最先进的操作系统，怎么他的文件管理器 Finder 没有像 Windows 资源管理器的“发送到”功能呢？要知道这是一个很方便的功能，可以自己向 Sendto 文件夹添加文件夹快捷方式，以后在其他文件或文件夹上点右键就可以讲其复制过去。还可以快捷发邮件和发送到 U 盘里。比如下图：
 
@@ -29,3 +25,4 @@ comments: true
 ![Automator](/assets/images/macsendto2.png)
 
 保存后，在 Finder 中随便选择一个文件单击右键，就会出来一个新的项目，单击就可以将文件或文件夹拷贝到设置的位置。试试吧！
+

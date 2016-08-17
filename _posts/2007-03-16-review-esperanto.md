@@ -1,9 +1,6 @@
 ---
 title: 回顾一下：世界语
-author: esperisto
 layout: post
-archive: true
-comments: true
 categories:
   - 回忆过去
 tags:
@@ -13,3 +10,4 @@ tags:
 
  [1]: http://www.google.com/search?hl=zh-CN&q=%25E4%25B8%2596%25E7%2595%258C%25E8%25AF%25AD&btnG=Google+%25E6%2590%259C%25E7%25B4%25A2&lr=
  [2]: http://www.google.com/search?hl=zh-CN&newwindow=1&q=Esperanto&btnG=Google+%25E6%2590%259C%25E7%25B4%25A2&lr=
+

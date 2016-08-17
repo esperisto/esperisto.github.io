@@ -1,9 +1,6 @@
 ---
 title: 免费的文本编辑器
-author: esperisto
 layout: post
-archive: true
-comments: true
 categories:
   - 经验之谈
 tags:
@@ -23,3 +20,4 @@ tags:
 
  [1]: http://www.pspad.com/
  [2]: http://blog.terac.com/andy/e_200.html
+

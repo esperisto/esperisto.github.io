@@ -1,22 +1,15 @@
 ---
 title: 与员工沟通的 10 个技巧
-author: esperisto
 layout: post
-
 categories:
   - GTD
-  - 翻译
-archive: true
-comments: true 
+tags: 沟通
 ---
 
 > 原作者：[Ian's Messy Desk](http://www.ismckenzie.com/"Productivity, Time Management and Organization Systems Articles at Ian's Messy Desk")
-
-原文：[10 Tips for Communicating with Employees][1]
-
-译文作者：[esperisto][2]
-
-译文：[与员工沟通的 10 个技巧][3]
+>原文：[10 Tips for Communicating with Employees][1]
+>译文作者：[esperisto][2]
+>译文：[与员工沟通的 10 个技巧][3]
 
 
 有效地进行沟通是管理人员的一个关键技术。如果一个主管不能提供清楚明白的信息，不管这个信息有多好或多重要，它都是没有价值的。
@@ -43,3 +36,4 @@ comments: true
 [1]: http://www.ismckenzie.com/10-tips-for-communicating-with-employees/
 [2]: http://jouchyi.cn
 [3]: http://jouchyi.cn/2009/08/10-tips-for-communicating-with-employees.html
+

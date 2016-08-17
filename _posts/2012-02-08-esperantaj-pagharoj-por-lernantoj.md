@@ -1,32 +1,23 @@
 ---
 title: 世界语学习者常用网站
-author: esperisto
 layout: post
-
 categories:
   - 语言文化
 tags:
   - Esperanto
   - 世界语
-archive: false
-comments: true 
 ---
 
 在QQ群的聊天中，我发现一些朋友不知道有哪些世界语网站，下面我就介绍一下：
 
-###学习类网站：
+### 学习类网站：
 
-<img border="0" src="http://pic.yupoo.com/esperisto/BJgZ2Cxh/8hail.png" />
+![](http://pic.yupoo.com/esperisto/BJgZ2Cxh/8hail.png)
+[Lernu!](http://www.lernu.net)：世界语国度最好的在线学习系统，提供多语言版本。该网站提供了从入门课程到高级课程的一整套学习方案，教材包括 Ana Pana、Gerda Malaperis，还有记单词游戏、读物、社区等。值得一提的是，每位学习者都可指定一名辅导员，而且这个网站还提供了ABC三个级别的考试，可以让学习者评估自己的世界语水平。简体中文网址：[http://zh-cn.lernu.net/](http://zh-cn.lernu.net/)。（<font color="#FF0000">✰✰✰✰✰</font>）
 
-<a href="http://www.lernu.net/" target="_blank">Lernu!</a>：世界语国度最好的在线学习系统，提供多语言版本。该网站提供了从入门课程到高级课程的一整套学习方案，教材包括 Ana Pana、Gerda Malaperis，还有记单词游戏、读物、社区等。值得一提的是，每位学习者都可指定一名辅导员，而且这个网站还提供了ABC三个级别的考试，可以让学习者评估自己的世界语水平。简体中文网址：<a href="http://zh-cn.lernu.net/">http://zh-cn.lernu.net/</a>。（<font color="#FF0000">✰✰✰✰✰</font>）
+<img border="0" src="http://pic.yupoo.com/esperisto/BJgZ3YQz/6OXBU.png" width="255" height="32" />
 
-  
-  <p>
-    <img border="0" src="http://pic.yupoo.com/esperisto/BJgZ3YQz/6OXBU.png" width="155" height="32" />
-  </p>
-  
-  <p>
-    <a href="http://www.elerno.cn/" target="_blank">世界语学习</a>：这是重庆魏以达老师制作的网站，上面有他和刘祖军合编的《世界语网络教程》可供自学。还有一些书籍可供下载。其中另一本教材《世界语高阶教程》（<em>Paŝoj al Plena Posedo</em>）是世界语文学大师 William Auld 所编。（<font color="#FF0000">✰✰✰</font>）
+<a href="http://www.elerno.cn/" target="_blank">世界语学习</a>：这是重庆魏以达老师制作的网站，上面有他和刘祖军合编的《世界语网络教程》可供自学。还有一些书籍可供下载。其中另一本教材《世界语高阶教程》（<em>Paŝoj al Plena Posedo</em>）是世界语文学大师 William Auld 所编。（<font color="#FF0000">✰✰✰</font>）
   </p>
   
   <p>
@@ -41,12 +32,10 @@ comments: true
     <a href="http://www.reta-vortaro.de/revo/" target="_blank">Reta Vortaro</a>：这是世界语原文在线词典。为每个单词提供了详细解释、例句和出处，以及和其他语言对应的单词。另有第三方小清新版 <a href="http://simplavortaro.org/" target="_blank">La Simpla Vortaro de Esperanto</a>。世界语者居家旅行之必备！（<font color="#FF0000">✰✰✰✰✰</font>）
   </p>
   
-  <h3>
-    门户新闻类：
-  </h3>
+### 门户新闻类：
   
   <p>
-    <img border="0" src="http://pic.yupoo.com/esperisto/BJh3snM0/jfUNx.png" width="154" height="44" />
+    <img border="0" src="http://pic.yupoo.com/esperisto/BJh3snM0/jfUNx.png" width="255" height="44" />
   </p>
   
   <p>
@@ -58,7 +47,7 @@ comments: true
   </p>
   
   <p>
-    <img border="0" src="http://pic.yupoo.com/esperisto/BJh3scyn/2CiAx.png" width="151" height="49" />
+    <img border="0" src="http://pic.yupoo.com/esperisto/BJh3scyn/2CiAx.png" width="255" height="49" />
   </p>
   
   <p>
@@ -74,16 +63,14 @@ comments: true
   </p>
   
   <p>
-    <img border="0" src="http://pic.yupoo.com/esperisto/BJh3qzeA/Q2dVm.png" width="191" height="44" />
+    <img border="0" src="http://pic.yupoo.com/esperisto/BJh3qzeA/Q2dVm.png" width="255" height="44" />
   </p>
   
   <p>
     <a href="http://www.liberafolio.org/" target="_blank">Libera Folio</a>：纯世界语的世界语国度报道网站，专门报道和世界语有关的新闻，非常火爆，每篇文章都还有质量相当高的评论。
   </p>
   
-  <h3>
-    社交类网站：
-  </h3>
+### 社交类网站：
   
   <p>
     <img border="0" src="http://pic.yupoo.com/esperisto/BJh3rGfu/WPSss.png" />
@@ -105,9 +92,7 @@ comments: true
     <a href="http://site.douban.com/106795/" target="_blank">豆瓣上的世界语小站</a>：这是由我们成都的世界语者维护的小站，差不多算是中国青年世界语爱好者的大本营了，非常有趣，值得多看。（<font color="#FF0000">✰✰✰✰✰</font>）
   </p>
   
-  <h3>
-    资料类网站：
-  </h3>
+### 资料类网站：
   
   <p>
     <img border="0" src="http://pic.yupoo.com/esperisto/BJh3pmIw/k6XL3.png" />
@@ -117,9 +102,7 @@ comments: true
     <a href="http://eo.wikipedia.org/" target="_blank">世界语维基百科</a>：维基百科的世界语版。
   </p>
   
-  <h3>
-    音乐视频类：
-  </h3>
+### 音乐视频类：
   
   <p>
     <img border="0" src="http://pic.yupoo.com/esperisto/BJgZ2ppC/VoCEX.png" width="194" height="67" />
@@ -129,11 +112,7 @@ comments: true
     <a href="http://muzaiko.info/" target="_blank">Muzaiko</a>：&nbsp;如果您想听世界语音乐，这个在线广播电台是最适合你不过的了！（<font color="#FF0000">✰✰✰✰✰</font>）
   </p>
   
-  <p>
-    以后我还会陆续介绍各种类型的世界语网站，为大家提供一个参考。
-  </p>
-  
-  <p>
-    <div id="PoweredByWebStory">
-      <a target="_blank" href="http://sns.juziyue.com/webinvite.php?u=107"><img src="http://image.webstory.my/WebStoryLogo20.png" alt="菊子曰" /></a>&nbsp;今天你<a target="_blank" href="http://sns.juziyue.com/webinvite.php?u=107" target>菊子曰</a>了么？
-    </div>
+以后我还会陆续介绍各种类型的世界语网站，为大家提供一个参考。
+
+
+

@@ -1,13 +1,8 @@
 ---
 title: 现在从前
-author: esperisto
 layout: post
-archive: true
-comments: true
-categories:
-  - 所想所悟
-tags:
-  - 生活
+categories: [所想所悟]
+tags: 生活
 ---
 2006-7-14 15:01:16
 
@@ -19,3 +14,4 @@ tags:
 当然恋爱就更不用说了  
 而且你们微妙的关系加上还有点不肯定的因素对你们影响太大了  
 不要想的太多了,正如你说的感觉好就行”
+

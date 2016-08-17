@@ -1,8 +1,6 @@
 ---
 title: 比白噪音更好的安神音乐
-author: esperisto
 layout: post
-
 categories:
   - 经验之谈
 tags:
@@ -10,8 +8,6 @@ tags:
   - 生产力
   - 白噪音
   - 音乐
-archive: false
-comments: true
 ---
 小众软件上[提到了白噪音][1]，还推荐了[两个在线网站][2]和[一款 Windows 软件][3]来制造白噪音。但是，[有人认为][4]并且[有人怀疑][5]白噪音并不如想象中的那么好。
 
@@ -50,3 +46,4 @@ comments: true
  [4]: http://www.appinn.com/rainy-mood-and-calm-website/#comment-154375
  [5]: http://www.appinn.com/white-noise/#comment-21649
  [6]: http://pan.baidu.com/share/link?shareid=313640&uk=3809105857
+

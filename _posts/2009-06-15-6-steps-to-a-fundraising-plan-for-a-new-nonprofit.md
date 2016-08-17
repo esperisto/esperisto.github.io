@@ -1,22 +1,15 @@
 ---
 title: 新的非营利组织募捐计划的 6 个步骤
-author: esperisto
 layout: post
 categories:
-  - 翻译
-archive: true
-comments: true 
+  - NGO
 ---
 ## 如何制定一项有效的筹款计划
 
 > 作者：乔安妮·弗里茨
-
 > 译者： [esperisto][2]
-
 > [原文链接][1]
-
 > [译文链接][3]
-
 
 面对大量的筹款建议、筹款来源、筹款战略和工具，一个新的非营利组织在刚开始筹款时，会非常困惑。以下是一些简单的步骤，让您从一开始就走向成功的筹款计划。
 
@@ -57,3 +50,4 @@ comments: true
 [1]: http://nonprofit.about.com/od/fundraisingbasics/tp/basicfundraisingtips.htm
 [2]: http://jouchyi.cn
 [3]: http://jouchyi.cn/2009/06/6-steps-to-a-fundraising-plan-for-a-new-nonprofit.html
+

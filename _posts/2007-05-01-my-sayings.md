@@ -1,9 +1,6 @@
 ---
 title: 我自己的名言
-author: esperisto
 layout: post
-archive: true
-comments: true
 categories:
   - 所想所悟
 tags:
@@ -14,3 +11,4 @@ tags:
   * Dictatorship sometimes makes efficiency.
   * 经验不是行动的准则，而只能作为参考。
   * 多元，文化宽容才能造就更加繁荣的文明。
+

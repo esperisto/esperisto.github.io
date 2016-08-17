@@ -1,25 +1,18 @@
----
-title : Atom Feed
----
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE xsl:stylesheet [<!ENTITY mdash "&#x2014;">]>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title type="text" xml:lang="en">{{site.name}}</title>
-  <link type="application/atom+xml" href="{{site.url}}/feed.xml" rel="self"/>
-  <link type="text/html" href="{{site.url}}" rel="alternate"/>
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>{{site.url}}/all_feed</id>
-  <author>
-    <name>{{site.owner.name}}</name>
-  </author>
-
-  {% for post in site.posts limit:20 %}
-  <entry>
-    <title>{{ post.title }}</title>
-    <link href="{{site.url}}{{ post.url }}"/>
-    <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <id>{{site.url}}{{ post.id }}</id>
-    <content type="html">{{ post.content | xml_escape }}</content>
-  </entry>
-  {% endfor %}
-</feed>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yong Yuan - Blog</title>
+    <description>On Software Engineering, Lean Startup, Agile and Productivity</description>
+    <link>http://yongyuan.name</link>
+    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+    {% for post in site.posts limit:25 %}
+    <item>
+      <title>{{ post.title }}</title>
+      <description>{{ post.content | xml_escape }}</description>
+      <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+      <link>{{ site.url }}{{ post.url }}</link>
+      <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>

@@ -1,17 +1,11 @@
 ---
 title: 酒瓶和开瓶器的比喻
-author: esperisto
 layout: post
-
-keywords:
-  - dialog, dialogue, wine, life, bottle, metaphor, love,problem,thinking,spirit,酒瓶,开瓶器,比喻,人生,问题,烦恼,灵感
 categories:
   - 所想所悟
 tags:
   - 人生
   - 比喻
-archive: true
-comments: true
 ---
 这是今天和小 C 的一段对话：
 
@@ -78,3 +72,4 @@ comments: true
 > [下午 2:52:40] esperisto 说： 很激动，先去释放一下
 
 有没有人有更好的办法？
+

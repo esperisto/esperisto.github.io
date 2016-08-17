@@ -1,19 +1,13 @@
 ---
 title: 在 Mac OS X 上输入世界语字母
-author: esperisto
 layout: post
-
-categories:
-  - 经验之谈
-  - 语言文化
+categories: [世界语]
 tags:
   - Esperanto
   - Klavaro
   - Makintoŝo
   - 世界语
   - 技巧
-archive: false
-comments: true
 ---
 以前，在 Windows 系统上要输入世界语的话，需要安装世界语的输入法软件，比如 EK! 或 Tajpi 或 Duoblo 才能够输入世界语特有的字母。现在我使用苹果电脑了，Mac OS X 自带世界语输入方式。那么现在我就介绍给大家：
 
@@ -28,3 +22,4 @@ comments: true
 Ŭ 和 ŭ 呢？组合键是：Option ＋ b。
 
 这样，就能输入世界语了。
+

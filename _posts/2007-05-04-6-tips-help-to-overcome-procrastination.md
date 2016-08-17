@@ -1,22 +1,11 @@
 ---
 title: 翻译：6个帮助克服拖延的诀窍
-author: esperisto
 layout: post
-archive: true
-comments: true
-categories:
-  - GTD
-  - 翻译
-  - 读万卷书
-tags:
-  - 克服
-  - 技巧
-  - 拖延
+categories: [GTD]
+tags: 拖延
 ---
 > 原作者：Ian McKenzie
-
 > 原载：[Ian's Messy Desk][1]
-
 > 原文链接：[6 Tips to Help Overcome Procrastination][2]
 
 我本来打算上周的时候写着篇文章的，但是我将它推迟了。<img width="16" height="16" border="0" />
@@ -79,3 +68,5 @@ tags:
 
  [1]: http://www.ismckenzie.com/ "Productivity, Time Management and Organization Systems Articles at Ian's Messy Desk"
  [2]: http://www.ismckenzie.com/04/10/6-tips-to-help-overcome-procrastination/
+
+

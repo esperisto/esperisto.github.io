@@ -1,26 +1,16 @@
 ---
 title:
   - 讓等待更具價值的 7 個方法
-author: esperisto
 layout: post
-
-keywords:
-  - GTD, time management, productivity, waiting
 categories:
   - GTD
-  - 翻译
 tags:
   - 技巧
   - 等待
-archive: true
-comments: true
 ---
 > 原作者：[Ian's Messy Desk](http://www.ismckenzie.com/ "Productivity, Time Management and Organization Systems Articles at Ian's Messy Desk")
-
 > 原文鏈接：[7 Ways to Make Waiting Time More Productive][1]
-
 > 譯者：[esperisto][2]
-
 > 譯文：[讓等待更具價值的 7 個方法][3]
 
 最後一個[外部的消磨時間因素][4]（[譯文][5]）就是等待。盡管您想避免等待，但還是沒有可能擺脫掉它。您通話時等待、等待進行會議和約會、等待曲棍球練習結束、等車、等船。等待、等待、再等待。等待能夠耗盡您相當一部分的時間。良好的時間管理能讓等待更加有用。
@@ -42,3 +32,4 @@ comments: true
  [3]: http://jouchyi.cn/archives/88.html
  [4]: http://www.ismckenzie.com/04/05/8-common-time-wasters/ "8 Common Time Wasters"
  [5]: http://jouchyi.cn/archives/39.html "8 個常見的消磨時間因素"
+

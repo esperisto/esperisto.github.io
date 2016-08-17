@@ -1,24 +1,17 @@
 ---
 title: 优秀团队领导者的 8 项特征
-author: esperisto
 layout: post
 categories:
-  - 翻译
+  - GTD
 tags:
   - 生产力
   - 管理
-archive: false
-comments: true 
 ---
 
 > 原作者：[Ian's Messy Desk](http://www.ismckenzie.com/"Productivity, Time Management and Organization Systems Articles at Ian's Messy Desk")
-
 > 原文：[8 Characteristics of a Good Team Leader][1]
-
 > 译文作者：[esperisto][2]
-
 > 译文：[优秀团队领导者的 8 项特征][3]
-
 
   1. 支持： 
       * 时刻准备着向团队伸出援手
@@ -50,3 +43,4 @@ comments: true
 [1]: http://www.ismckenzie.com/8-characteristics-of-a-good-team-leader-2/
 [2]: http://jouchyi.cn
 [3]: http://jouchyi.cn/2009/09/8-characteristics-of-a-good-team-leader.html/
+

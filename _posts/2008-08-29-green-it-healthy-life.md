@@ -1,18 +1,13 @@
 ---
 title: 绿色IT，健康生活
-author: esperisto
 layout: post
-
 categories:
-  - GTD
   - 经验之谈
 tags:
   - 主题活动
   - 健康
   - 环保
   - 绿色
-archive: true
-comments: true
 ---
 “绿色IT”的概念已经提出有相当长的时间，但必须有我们每一个人的实际行动，口号才不会成为空谈。
 
@@ -56,3 +51,4 @@ comments: true
  [1]: http://review.feedsky.com/review/feedsky/jouchyi/~/txt/181/r.html
  [2]: http://fellow.51cto.com/exp/greenpeople/
  [3]: http://review.feedsky.com/review/feedsky/jouchyi/~/img/181/review.gif
+

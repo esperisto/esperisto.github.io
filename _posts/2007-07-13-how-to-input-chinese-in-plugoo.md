@@ -1,11 +1,7 @@
 ---
 title: 如何在 Plugoo 中输入中文
-author: esperisto
 layout: post
-archive: true
-comments: true
-categories:
-  - 经验之谈
+categories: [经验之谈]
 tags:
   - plugoo
   - web服务
@@ -19,3 +15,4 @@ tags:
 其实要想在其中直接输入中文很简单，只需要做一件事：删除 Plugoo HTML 代码中的 `<param name="wmode" value="transparent" />` 就可以了。
 
  [1]: http://www.plugoo.com
+

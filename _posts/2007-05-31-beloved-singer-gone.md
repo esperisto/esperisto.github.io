@@ -1,13 +1,8 @@
 ---
 title: 喜爱的歌手走了
-author: esperisto
 layout: post
-archive: true
-comments: true
-categories:
-  - 道听途说
-tags:
-  - 哀悼
+categories: [道听途说]
+tags: 哀悼
 ---
 来自搜狐娱乐：
 
@@ -18,3 +13,4 @@ tags:
 > 去年是坂井泉水出道15周年纪念，她原本预定在今年发行新的专辑并举行巡演，但这一切随着她的去世而成为遗憾。
 
 唉！再也听不到她的新专辑了～～～
+

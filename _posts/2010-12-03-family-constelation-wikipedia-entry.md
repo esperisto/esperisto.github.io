@@ -1,16 +1,12 @@
 ---
 title: 家庭系统排列（维基百科条目译文）
-author: esperisto
 layout: post
-
 categories:
   - 翻译
 tags:
   - 心理学
   - 系统排列
   - 维基百科
-archive: false
-comments: true 
 ---
 
 最近一段时间对[家庭系统排列][1]很感兴趣，去维基百科搜索了一下，只有英文条目，就随手翻译了。难得发在维基上，太复杂了。如果有维基有人凑巧看到我这篇译文，请发到维基上去，感谢！好，下面开始：
@@ -38,3 +34,4 @@ comments: true
 [5]: http://en.wikipedia.org/wiki/Virginia_Satir
 [6]: http://en.wikipedia.org/wiki/Bert_Hellinger
 [7]: http://en.wikipedia.org/wiki/Alfred_Adler
+

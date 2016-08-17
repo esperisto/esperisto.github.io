@@ -1,26 +1,15 @@
 ---
 title: 成功人士的五個品質
-author: esperisto
 layout: post
-
-keywords:
-  - success,成功,品质
 categories:
   - GTD
-  - 经验之谈
-  - 翻译
 tags:
   - 品质
   - 成功
-archive: true
-comments: true
 ---
 > 原作者：[Ian's Messy Desk](http://www.ismckenzie.com/ "Productivity, Time Management and Organization Systems Articles at Ian's Messy Desk")
-
 > 原文鏈接：[5 Traits of a Successful Person][1]
-
 > 譯者：[esperisto][2]
-
 > 譯文：[成功人士的五個品質][3]
 
 這是作者 [Monday Motivator][4] 分類中的一篇文章。
@@ -52,3 +41,4 @@ comments: true
  [5]: http://www.ismckenzie.com/04/17/12-tips-for-personal-development-2/ "12 Tips for Personal Development"
  [6]: http://www.ismckenzie.com/06/05/a-self-management-checklist/ "A self-management checklist success"
  [7]: http://www.ismckenzie.com/06/27/4-keys-to-staying-motivated/ "4 keys to staying motivated motivation"
+

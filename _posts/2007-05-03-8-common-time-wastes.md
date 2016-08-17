@@ -1,13 +1,8 @@
 ---
 title: 翻译：8个常见的消磨时间因素
-author: esperisto
 layout: post
-archive: true
-comments: true
 categories:
   - GTD
-  - 翻译
-  - 读万卷书
 tags:
   - 时间
 ---
@@ -41,3 +36,5 @@ tags:
  [4]: http://jouchyi.cn/archives/38.html
  [5]: http://jouchyi.cn/archives/91.html
  [6]: http://jouchyi.cn/archives/88.html
+
+

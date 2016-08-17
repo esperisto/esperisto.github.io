@@ -1,23 +1,15 @@
 ---
 title: 公共演讲成功的 10 个技巧
-author: esperisto
 layout: post
-
 categories:
   - GTD
-  - 翻译
-archive: true
-comments: true
+tags: 演讲
 ---
 
 > 原作者：[Ian's Messy Desk](http://www.ismckenzie.com/"Productivity, Time Management and Organization Systems Articles at Ian's Messy Desk")
-> 
 > 原文：[10 Tips for Successful Public Speaking](1)
-> 
 > 译者：[esperisto][2]
-> 
 > 译文链接：[公共演讲成功的 10 个技巧][3]
-
 
 [国际演讲协会][4]总结了十条能够帮助您提高公共演讲技能的技巧。
 
@@ -36,3 +28,4 @@ comments: true
 [2]: http://jouchyi.cn
 [3]: http://jouchyi.cn/10-tips-for-successful-public-speaking.html
 [4]: http://www.toastmasters.org/ "Toastmasters International"
+

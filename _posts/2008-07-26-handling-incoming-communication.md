@@ -1,29 +1,20 @@
 ---
 title: 如何处理收到的消息
-author: esperisto
 layout: post
 categories:
   - GTD
-  - 翻译
 tags: 
   - 时间
   - 消息
   - 生产力
   - 管理
   - 计划
-archive: true
-comments: true
 ---
 
 > 原作者：[Ian's Messy Desk](http://www.ismckenzie.com/"Productivity, Time Management and Organization Systems Articles at Ian's Messy Desk")
-> 
 > 原文链接：[Handling Incoming Communication][1]
-> 
 > 译者：[esperisto][2]
-> 
 > 译文：[如何处理收到的消息][3]
-
-
 
 您应当用最少的行动来管理您收到的数据，包括电子邮件、语音邮件、电话和日常信件。收到的数据不应当频繁地引起您的注意并浪费掉您的整个一天。良好的工作场所习惯来自于聪明地、有节制的工作。
 
@@ -49,3 +40,4 @@ comments: true
 [1]: http://www.ismckenzie.com/01/10/handling-incoming-communication
 [2]: http://jouchyi.cn
 [3]: http://jouchyi.cn/2008/07/handling-incoming-communication.html/
+
