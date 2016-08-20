@@ -3,9 +3,9 @@ layout: post
 title: Org-mode 导出为 Word 的技巧
 categories: 经验之谈
 tags:
-	- org-mode
-	- word
-	- xml
+  - org-mode
+  - word
+  - xml
 ---
 
 [Org Mode](http://www.orgmode.org) 是个大杀器。为了这个大杀器我也学习了 Emacs 的基本操作方法。
