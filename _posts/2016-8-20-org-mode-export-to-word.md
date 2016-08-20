@@ -24,11 +24,11 @@ Org mode 的文件可以导出为各种文件格式，比如 pdf、html、iCalen
 
 在 init.el 中添加以下内容，把 xml 文件头去掉：
 
-````lisp 
+```elisp 
 (setq org-html-xml-declaration (quote (("html" . "")
                                        ("was-html" . "<?xml version=\"1.0\" encoding=\"%s\"?>")
                                        ("php" . "<?php echo \"<?xml version=\\\"1.0\\\" encoding=\\\"%s\\\" ?>\"; ?>"))))
-````
+```
 
 之后导出的 html 文件就可以直接在 Word 打开了。
 
