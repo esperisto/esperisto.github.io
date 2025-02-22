@@ -1,0 +1,137 @@
+<div class="html" id="orgc5ca5c3">
+<p>
+&#x2014;
+layout: post
+title: 在Linux上用git来使用Github
+archive: false
+comments: true
+&#x2014;
+</p>
+
+</div>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgb14f8ce">要点</a>
+<ul>
+<li><a href="#org717d49a">Install git</a></li>
+<li><a href="#org3794492">Configure git</a></li>
+<li><a href="#org86e43c6">Create a ssh key</a></li>
+<li><a href="#org0f7c1b6">Clone your repo to your computer</a></li>
+<li><a href="#orgcdd2bb5">Update your remote repo after local files changed</a></li>
+</ul>
+</li>
+<li><a href="#org92876bb"><span class="todo TODO">TODO</span> Learn command git push</a></li>
+<li><a href="#org71b92c3"><span class="todo TODO">TODO</span> Translate into Chinese and improve wordings</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgb14f8ce" class="outline-2">
+<h2 id="orgb14f8ce">要点</h2>
+<div class="outline-text-2" id="text-orgb14f8ce">
+</div>
+<div id="outline-container-org717d49a" class="outline-3">
+<h3 id="org717d49a">Install git</h3>
+<div class="outline-text-3" id="text-org717d49a">
+<p>
+On MX Linux, git is pre-installed.
+</p>
+
+<p>
+On other distribution, it may need to install git. Using:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-bash">
+sudo apt install git
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org3794492" class="outline-3">
+<h3 id="org3794492">Configure git</h3>
+<div class="outline-text-3" id="text-org3794492">
+<p>
+Add user name and email to the git
+</p>
+<div class="org-src-container">
+<pre class="src src-bash">
+git config --global user.name <span style="color: #4d4d4d;">"esperisto"</span>
+
+git config --global user.email <span style="color: #4d4d4d;">"esperisto@gmail.com"</span>
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org86e43c6" class="outline-3">
+<h3 id="org86e43c6">Create a ssh key</h3>
+<div class="outline-text-3" id="text-org86e43c6">
+<p>
+This enables you to link your Github account to your computer or vice
+versa. With this key, you won't need to enter username and password
+every time as you use git to communicate with your Github account.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-bash">
+<span style="color: #5d478b;">cd</span>
+
+ssh-keygen -t rsa -C <span style="color: #4d4d4d;">"esperisto@gmail.com"</span>
+</pre>
+</div>
+
+<p>
+Then open <code>~/.ssh/id_rsa/id_rsa.pub</code>, copy its content to <i>SSH and GPG
+keys</i> in Github under <i>Settings</i>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0f7c1b6" class="outline-3">
+<h3 id="org0f7c1b6">Clone your repo to your computer</h3>
+<div class="outline-text-3" id="text-org0f7c1b6">
+<p>
+Now you can clone your repo using:
+</p>
+
+
+<div class="org-src-container">
+<pre class="src src-bash">
+<span style="color: #5d478b;">cd</span>
+
+mkdir ~/Github/ <span style="color: #8b1a1a;"># </span><span style="color: #8b1a1a;">make a folder to store all repos.</span>
+
+git clone git@github.com:esperisto/esperist.github.io.git <span style="color: #8b1a1a;"># </span><span style="color: #8b1a1a;">clone the repo</span>
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgcdd2bb5" class="outline-3">
+<h3 id="orgcdd2bb5">Update your remote repo after local files changed</h3>
+<div class="outline-text-3" id="text-orgcdd2bb5">
+<div class="org-src-container">
+<pre class="src src-bash">
+<span style="color: #5d478b;">cd</span> ~/Github
+
+git add the-file-you-changed
+
+git commit -m <span style="color: #4d4d4d;">"your commit comment"</span>
+
+git push origin master
+</pre>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org92876bb" class="outline-2">
+<h2 id="org92876bb"><span class="todo TODO">TODO</span> Learn command git push</h2>
+</div>
+<div id="outline-container-org71b92c3" class="outline-2">
+<h2 id="org71b92c3"><span class="todo TODO">TODO</span> Translate into Chinese and improve wordings</h2>
+</div>
