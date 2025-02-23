@@ -4,8 +4,6 @@ title: 在Linux上用git来使用Github
 archive: false
 comments: true
 ---
-
-</div>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
@@ -56,9 +54,9 @@ Add user name and email to the git: (<b>Change according to your situation</b>)
 </p>
 <div class="org-src-container">
 <pre class="src src-bash">
-git config --global user.name <span style="color: #4d4d4d;">"esperisto"</span>
+git config --global user.name <span style="color: #4d4d4d;">"github-username"</span> <span style="color: #8b1a1a;"># </span><span style="color: #8b1a1a;">replace with your username and address below</span>
 
-git config --global user.email <span style="color: #4d4d4d;">"5539549+esperisto@users.noreply.github.com"</span>
+git config --global user.email <span style="color: #4d4d4d;">"numbers+github-username@users.noreply.github.com"</span>
 </pre>
 </div>
 
@@ -82,7 +80,7 @@ every time as you use git to communicate with your Github account.
 <pre class="src src-bash">
 <span style="color: #5d478b;">cd</span>
 
-ssh-keygen -t rsa -C <span style="color: #4d4d4d;">"esperisto@gmail.com"</span>
+ssh-keygen -t rsa -C <span style="color: #4d4d4d;">"your-email@address.com"</span> <span style="color: #8b1a1a;"># </span><span style="color: #8b1a1a;">replace with your email</span>
 </pre>
 </div>
 
@@ -107,7 +105,7 @@ Now you can clone your repo using:
 
 mkdir ~/Github/ <span style="color: #8b1a1a;"># </span><span style="color: #8b1a1a;">make a folder to store all repos.</span>
 
-git clone git@github.com:esperisto/esperist.github.io.git <span style="color: #8b1a1a;"># </span><span style="color: #8b1a1a;">clone the repo</span>
+git clone git@github.com:github-username/your-repository.git <span style="color: #8b1a1a;"># </span><span style="color: #8b1a1a;">clone the repo</span>
 </pre>
 </div>
 </div>
@@ -120,7 +118,7 @@ git clone git@github.com:esperisto/esperist.github.io.git <span style="color: #8
 <pre class="src src-bash">
 <span style="color: #5d478b;">cd</span> ~/Github
 
-git add the-file-you-changed
+git add the-file-you-changed <span style="color: #8b1a1a;"># </span><span style="color: #8b1a1a;">when files are too many, use parameter --all</span>
 
 git commit -m <span style="color: #4d4d4d;">"your commit comment"</span>
 
