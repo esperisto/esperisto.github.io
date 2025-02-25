@@ -1,0 +1,146 @@
+---
+layout: post
+title: Emacs小技巧
+archive: false
+comments: true
+category: [经验之谈]
+tags: Emacs
+---
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org76290e0">方法 1：使用 <code>tramp</code> 和 <code>sudo</code></a></li>
+<li><a href="#org55e9ccd">方法 2：使用 <code>M-x shell</code> 调用 <code>sudo</code></a></li>
+<li><a href="#orgaa0eeaf">方法 3：使用 <code>M-x eshell</code> 调用 <code>sudo</code></a></li>
+<li><a href="#org6ac5f1e">方法 4：保存时使用 <code>sudo</code></a></li>
+<li><a href="#orgc634eb6">方法 5：使用 <code>sudoedit</code></a></li>
+<li><a href="#org0706ba1">总结</a></li>
+</ul>
+</div>
+</div>
+
+<p>
+在 Emacs 中，如果你需要编辑一个当前用户没有权限的文件（类似于在终端中
+使用 <code>sudo</code> ），可以通过以下几种方法实现：
+</p>
+
+<div id="outline-container-org76290e0" class="outline-2">
+<h2 id="org76290e0">方法 1：使用 <code>tramp</code> 和 <code>sudo</code></h2>
+<div class="outline-text-2" id="text-org76290e0">
+<p>
+Emacs 内置的 <code>tramp</code> 模式允许你通过 <code>sudo</code> 权限打开文件。具体步骤如下：
+</p>
+<ol class="org-ol">
+<li>打开 Emacs。</li>
+<li>按下 <code>C-x C-f</code> （即 <code>Ctrl + x</code> 然后 <code>Ctrl + f</code> ）打开文件。</li>
+<li><p>
+在文件路径前加上 <code>/sudo::</code> ，例如：
+</p>
+<pre class="example" id="org291798a">
+/sudo::/etc/hosts
+</pre></li>
+<li>按下回车，Emacs 会提示你输入当前用户的密码。</li>
+<li>输入密码后，你就可以编辑并保存该文件了。</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org55e9ccd" class="outline-2">
+<h2 id="org55e9ccd">方法 2：使用 <code>M-x shell</code> 调用 <code>sudo</code></h2>
+<div class="outline-text-2" id="text-org55e9ccd">
+<p>
+如果你更喜欢在终端中使用 <code>sudo</code> ，可以通过以下步骤：
+</p>
+<ol class="org-ol">
+<li>在 Emacs 中按下 <code>M-x</code> （即 <code>Alt + x</code> ），然后输入 <code>shell</code> 并回车。</li>
+<li>这会打开一个内置的终端。</li>
+<li><p>
+在终端中使用 <code>sudo</code> 命令编辑文件，例如：
+</p>
+<div class="org-src-container">
+<pre class="src src-bash">sudo nano /etc/hosts
+</pre>
+</div></li>
+<li>编辑完成后保存并退出。</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-orgaa0eeaf" class="outline-2">
+<h2 id="orgaa0eeaf">方法 3：使用 <code>M-x eshell</code> 调用 <code>sudo</code></h2>
+<div class="outline-text-2" id="text-orgaa0eeaf">
+<p>
+<code>eshell</code> 是 Emacs 的一个内置 shell，支持直接调用 <code>sudo</code> ：
+</p>
+<ol class="org-ol">
+<li>在 Emacs 中按下 <code>M-x</code> ，然后输入 <code>eshell</code> 并回车。</li>
+<li><p>
+在 <code>eshell</code> 中使用 <code>sudo</code> 命令编辑文件，例如：
+</p>
+<div class="org-src-container">
+<pre class="src src-bash">sudo emacs /etc/hosts
+</pre>
+</div></li>
+<li>编辑完成后保存并退出。</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org6ac5f1e" class="outline-2">
+<h2 id="org6ac5f1e">方法 4：保存时使用 <code>sudo</code></h2>
+<div class="outline-text-2" id="text-org6ac5f1e">
+<p>
+如果你已经打开了文件但忘记使用 <code>sudo</code> ，可以在保存时临时提升权限：
+</p>
+<ol class="org-ol">
+<li>编辑文件后，按下 <code>M-x</code> ，然后输入 <code>write-file</code> 并回车。</li>
+<li><p>
+在文件路径前加上 <code>/sudo::</code> ，例如：
+</p>
+<pre class="example" id="orgc1f6013">
+/sudo::/etc/hosts
+</pre></li>
+<li>按下回车，输入密码后即可保存。</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-orgc634eb6" class="outline-2">
+<h2 id="orgc634eb6">方法 5：使用 <code>sudoedit</code></h2>
+<div class="outline-text-2" id="text-orgc634eb6">
+<p>
+如果你不想在 Emacs 中直接使用 <code>sudo</code> ，可以通过 <code>sudoedit</code> 命令：
+</p>
+<ol class="org-ol">
+<li><p>
+在终端中运行：
+</p>
+<div class="org-src-container">
+<pre class="src src-bash">sudoedit /etc/hosts
+</pre>
+</div></li>
+<li>这会使用默认编辑器（通常是 <code>vim</code> 或 <code>nano</code> ）打开文件。</li>
+<li><p>
+如果你想将 Emacs 设置为默认编辑器，可以在 <code>~/.bashrc</code> 或 <code>~/.zshrc</code> 中添加：
+</p>
+<div class="org-src-container">
+<pre class="src src-bash"><span style="color: #5d478b;">export</span> <span style="color: #006400;">EDITOR</span>=<span style="color: #4d4d4d;">"emacsclient -c"</span>
+<span style="color: #5d478b;">export</span> <span style="color: #006400;">SUDO_EDITOR</span>=<span style="color: #4d4d4d;">"emacsclient -c"</span>
+</pre>
+</div></li>
+<li>重新加载 shell 配置后， <code>sudoedit</code> 会使用 Emacs 打开文件。</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org0706ba1" class="outline-2">
+<h2 id="org0706ba1">总结</h2>
+<div class="outline-text-2" id="text-org0706ba1">
+<p>
+最推荐的方法是使用 <code>tramp</code> 模式（方法 1），因为它完全在 Emacs 中完成，
+无需切换到终端。如果你更喜欢终端操作，可以使用方法 2 或方法 3。根据你
+的习惯选择最适合的方式即可！如果还有其他问题，欢迎随时问我！
+</p>
+</div>
+</div>
