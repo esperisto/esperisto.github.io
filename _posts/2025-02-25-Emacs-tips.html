@@ -21,8 +21,7 @@ tags: Emacs
 </div>
 
 <p>
-在 Emacs 中，如果你需要编辑一个当前用户没有权限的文件（类似于在终端中
-使用 <code>sudo</code> ），可以通过以下几种方法实现：
+在 Emacs 中，如果你需要编辑一个当前用户没有权限的文件（类似于在终端中使用 <code>sudo</code> ），可以通过以下几种方法实现：
 </p>
 
 <div id="outline-container-org76290e0" class="outline-2">
@@ -37,7 +36,7 @@ Emacs 内置的 <code>tramp</code> 模式允许你通过 <code>sudo</code> 权�
 <li><p>
 在文件路径前加上 <code>/sudo::</code> ，例如：
 </p>
-<pre class="example" id="org291798a">
+<pre class="example" id="orgbaf7c85">
 /sudo::/etc/hosts
 </pre></li>
 <li>按下回车，Emacs 会提示你输入当前用户的密码。</li>
@@ -98,7 +97,7 @@ Emacs 内置的 <code>tramp</code> 模式允许你通过 <code>sudo</code> 权�
 <li><p>
 在文件路径前加上 <code>/sudo::</code> ，例如：
 </p>
-<pre class="example" id="orgc1f6013">
+<pre class="example" id="org62ad628">
 /sudo::/etc/hosts
 </pre></li>
 <li>按下回车，输入密码后即可保存。</li>
@@ -138,9 +137,7 @@ Emacs 内置的 <code>tramp</code> 模式允许你通过 <code>sudo</code> 权�
 <h2 id="org0706ba1">总结</h2>
 <div class="outline-text-2" id="text-org0706ba1">
 <p>
-最推荐的方法是使用 <code>tramp</code> 模式（方法 1），因为它完全在 Emacs 中完成，
-无需切换到终端。如果你更喜欢终端操作，可以使用方法 2 或方法 3。根据你
-的习惯选择最适合的方式即可！如果还有其他问题，欢迎随时问我！
+最推荐的方法是使用 <code>tramp</code> 模式（方法 1），因为它完全在 Emacs 中完成，无需切换到终端。如果你更喜欢终端操作，可以使用方法 2 或方法 3。根据你的习惯选择最适合的方式即可！如果还有其他问题，欢迎随时问我！
 </p>
 </div>
 </div>
